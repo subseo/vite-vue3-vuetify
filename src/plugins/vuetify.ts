@@ -28,11 +28,13 @@ export default createVuetify(
         elevation: 2,
       },
       VBtn: { weight: 'black' },
+      VAppBar: {
+        elevation:16
+      }
     },
     theme: {
       defaultTheme: 'customTheme',
-      themes: {
-        customTheme,
+      themes: {customTheme,
       },
     },
     icons: {
