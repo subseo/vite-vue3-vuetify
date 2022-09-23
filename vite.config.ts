@@ -20,7 +20,7 @@ export default defineConfig({
     Vue({
       reactivityTransform: true,
     }),
-    vuetify(),
+    vuetify({ autoImport: true,styles: { configFile: 'src/styles/vuetify.scss' }  }),
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),

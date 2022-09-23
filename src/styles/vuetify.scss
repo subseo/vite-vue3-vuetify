@@ -1,0 +1,9 @@
+@use 'vuetify/settings' with (
+  // global
+  $color-pack: false,
+  $border-radius-root: 45px,
+  $line-height-root: 2,
+
+  // v-app-bar
+  $app-bar-elevation: 16,
+);

@@ -1,7 +1,14 @@
 <template>
   <v-app>
+    <v-app-bar><v-app-bar-title>VITE</v-app-bar-title></v-app-bar>
     <v-main>
+      <v-container>
+      <v-card>
+        <v-card-text color="secondary-text">fsdfsdf</v-card-text>
+        <v-btn color="secondary">test</v-btn>
+      </v-card>
       <HelloWorld/>
+      </v-container>
     </v-main>
   </v-app>
 </template>
