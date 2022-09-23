@@ -41,10 +41,6 @@ export default defineConfig({
     Components({
       dts: true,
     }),
-
-    // https://github.com/antfu/unocss
-    // see unocss.config.ts for config
-    Unocss(),
   ],
 
   // https://github.com/vitest-dev/vitest
