@@ -16,6 +16,7 @@
     "roboto-fontface": "*",
     "sass": "^1.55.0",
     "scss": "^0.2.4",
+    "vite-plugin-vue-layouts": "^0.7.0",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5",
     "vuetify": "npm:@vuetify/nightly@next",
