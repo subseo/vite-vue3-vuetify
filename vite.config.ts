@@ -7,6 +7,9 @@ import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 
+import vuetify from 'vite-plugin-vuetify'
+
+
 export default defineConfig({
   resolve: {
     alias: {
@@ -17,6 +20,7 @@ export default defineConfig({
     Vue({
       reactivityTransform: true,
     }),
+    vuetify(),
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
